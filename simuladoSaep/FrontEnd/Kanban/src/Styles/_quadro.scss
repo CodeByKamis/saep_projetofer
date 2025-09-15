@@ -1,0 +1,32 @@
+@use'./variaveis.scss' as *;
+
+.conteiner {
+  display: flex;
+  gap: 16px; // espaço entre as colunas
+  padding: 16px;
+  justify-content: center;  
+  margin-top: 10px;
+
+}
+
+.coluna {
+  background-color: #eaeaea;
+  padding: 12px;
+  border-radius: 10px;
+  width: 400px; // largura fixa para cada coluna
+  min-height: 400px; // altura mínima da coluna
+  display: flex;
+  flex-direction: column;
+}
+.titulopg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eaeaea;
+}
+
+.tabelas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
