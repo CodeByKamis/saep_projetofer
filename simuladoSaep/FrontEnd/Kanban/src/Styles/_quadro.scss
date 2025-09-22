@@ -1,31 +1,36 @@
-@use'./variaveis.scss' as *;
+//importando tudo de variaveis 
+@use './variaveis.scss' as *;
 
+//container principal que envolve as colunas do quadro
 .conteiner {
   display: flex;
-  gap: 16px; // espaço entre as colunas
+  gap: 16px;
   padding: 16px;
-  justify-content: center;  
+  justify-content: center;
   margin-top: 10px;
-
 }
 
+//estilo para cada coluna do kanban
 .coluna {
   background-color: #eaeaea;
   padding: 12px;
   border-radius: 10px;
-  width: 400px; // largura fixa para cada coluna
-  min-height: 400px; // altura mínima da coluna
+  width: 400px;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
 }
-.titulopg{
+
+//cabeçalho da página com título centralizado
+.titulopg {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #eaeaea;
 }
 
-.tabelas{
+//container para tabelas, centraliza conteúdos horizontal e verticalmente
+.tabelas {
   display: flex;
   justify-content: center;
   align-items: center;

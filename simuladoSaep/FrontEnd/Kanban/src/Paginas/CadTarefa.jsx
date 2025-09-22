@@ -14,7 +14,7 @@ const schemaCadTarefa = z.object({
         .max(30, 'Insira até 30 caracteres'),
     descricao: z.string()
         .trim()
-        .min(10, 'Insira no minimo caracteres na descrição ')
+        .min(10, 'Insira no minimo 10 caracteres na descrição ')
         .max(255, 'Insira uma escrição com até 255 carateres'),
     nomeSetor: z.string()
         .trim()

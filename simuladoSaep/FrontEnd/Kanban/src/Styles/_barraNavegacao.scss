@@ -1,5 +1,6 @@
+//importando tudo de variaveis 
 @use './variaveis' as *;
-
+// estiliza a barra de navegação principal
 .barra{
     background-color: $primary;
     color: $backgrond;
@@ -16,6 +17,7 @@
         padding: 10px;
 
     }
+
     ul :hover{
         background-color: $accent;
         border-radius: 8px;

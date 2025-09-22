@@ -1,3 +1,5 @@
+// variáveis para cores e fontes usadas no projeto
+
 $backgrond: #f4f7f9;
 $primary: #1a2b3c;
 $secondary: #7c8c9a;
@@ -8,6 +10,7 @@ $text-primery: $backgrond;
 $text-primary: $primary;
 $font-primary: "Verdana";
 $font-size: 16px;
+// remove margens e paddings padrão e define box-sizing
 
 *{
     margin: 0;
@@ -15,7 +18,7 @@ $font-size: 16px;
     box-sizing: border-box;
 
 }
-
+// estilo base do corpo da página, com fundo usando a cor $primary
 body{
     background-color: $primary;
 }

@@ -2,9 +2,10 @@ import { Routes, Route} from 'react-router-dom';
 import { Inicial } from '../Paginas/Inicial';
 import { Quadro } from '../Componentes/Quadro';
 import { CadUsuario } from '../Paginas/CadUsuario';
-import { CadTarefa } from '../Paginas/cadTarefa';
+import { CadTarefa } from '../Paginas/CadTarefa';
 import { EditarTarefa } from '../Paginas/EditarTarefa';
 
+//criando o caminho de cada pagina importada acima ^
 export function Rotas(){
     return(
         <Routes>

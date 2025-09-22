@@ -1,5 +1,6 @@
+//importando tudo de variaveis 
 @use './variaveis' as *;
- 
+ //estilizando no formulario
 .formularios{
     max-width: 600px;
     margin: 40px auto 20px auto; // aumenta a margem superior para desgrudar do header
@@ -10,7 +11,7 @@
     flex-direction: column;
     gap:10px;
     justify-content: center;
-   
+//estilizando o titulo do formulario
     h2{
         text-align: center;
         margin-bottom: 10px;
@@ -46,7 +47,7 @@
         border-radius: 10px;
         cursor: pointer;
     }
-
+//estilizando a mensagem de erro
     .errors{
         font-size: 16px;
         color:red;            

@@ -1,5 +1,7 @@
+//importando tudo de variaveis 
 @use './variaveis' as *;
 
+//estilo de coluna que contem a tarefa no quadro kanban
 .coluna{
     background-color: $backgrond;
     border: 2px solid $secondary;
@@ -9,7 +11,7 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-
+ //estilo para o título dentro da coluna
     .titulo{
         font-size: 18px;
         color: $primary;
